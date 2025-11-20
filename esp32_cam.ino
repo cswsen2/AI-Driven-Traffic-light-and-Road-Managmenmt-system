@@ -7,7 +7,6 @@ const char* WIFI_PASS = "sena123d";
 
 WebServer server(80);
 
-// Camera configuration for AI Thinker ESP32-CAM
 camera_config_t config;
 
 void setupCamera() {
