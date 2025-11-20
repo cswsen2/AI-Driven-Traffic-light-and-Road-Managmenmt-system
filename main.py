@@ -11,9 +11,7 @@ from datetime import datetime
 import torch
 from queue import Queue
 
-# ==============================
-# Configuration
-# ==============================
+
 # ESP32 cameras configuration (4 lanes: North, East, South, West)
 CAMERAS = [
     {"name": "North_Lane", "ip": "10.63.204.86", "model_path": "best.pt", "window_pos": (0, 0), "lane_id": 0},
